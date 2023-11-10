@@ -1,0 +1,48 @@
+{
+	"name": "slidev-theme-frankfurt",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "A theme for Slidev, inspired by the Frankfurt theme in Beamer.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MuTsunTsai/slidev-theme-frankfurt.git"
+	},
+	"author": "Mu-Tsun Tsai",
+	"license": "MIT",
+	"keywords": [
+		"slidev-theme",
+		"slidev"
+	],
+	"engines": {
+		"node": ">=18.0.0",
+		"slidev": ">=0.19.3"
+	},
+	"scripts": {
+		"build": "slidev build example.md",
+		"dev": "slidev example.md",
+		"export": "slidev export example.md",
+		"screenshot": "slidev export example.md --format png --output screenshots"
+	},
+	"dependencies": {
+		"@slidev/types": "^0.43.14",
+		"codemirror-theme-vars": "^0.1.2",
+		"prism-theme-vars": "^0.2.4",
+		"theme-vitesse": "^0.7.3"
+	},
+	"devDependencies": {
+		"@slidev/cli": "^0.43.14",
+		"playwright-chromium": "^1.39.0"
+	},
+	"//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+	"slidev": {
+		"colorSchema": "both",
+		"highlighter": "shiki",
+		"defaults": {
+			"fonts": {
+				"sans": "Nunito Sans",
+				"mono": "Fira Code"
+			},
+			"hightlighter": "shiki"
+		}
+	}
+}

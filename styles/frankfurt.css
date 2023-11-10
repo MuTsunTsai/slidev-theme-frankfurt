@@ -1,0 +1,64 @@
+html {
+	font-size: 10pt;
+}
+
+.slidev-page {
+
+	overflow: hidden;
+
+	html.dark & {
+		background: #222;
+	}
+
+	h1 {
+		@apply text-white shadow-md;
+		background: #3333B3;
+		margin-top: -4rem;
+		margin-bottom: 2rem;
+		margin-left: -5.5rem;
+		margin-right: -5.5rem;
+		padding: 5.5rem 3rem 1rem 3rem;
+		width: 1000%;
+		--un-shadow-opacity: 1;
+		--un-shadow-color: #3333B3;
+	}
+
+	&.center,
+	&.cover,
+	&.intro {
+		h1 {
+			@apply shadow-md  shadow-gray;
+
+			display: inline-block;
+			padding: 1rem 5rem;
+			border-radius: 1rem;
+			width: unset;
+			margin-top: unset;
+			margin-left: unset;
+			margin-right: unset;
+
+			html.dark & {
+				--un-shadow-opacity: 1;
+				--un-shadow-color: #3333B3;
+			}
+		}
+	}
+}
+
+.item {
+	@apply shadow-md shadow-gray;
+	margin: 1rem 0;
+	border-radius: .5rem;
+	overflow: hidden;
+
+	header {
+		padding: 0.5rem;
+		color: white;
+		background: #262686;
+	}
+
+	main {
+		padding: 0.5rem;
+		background: #E9E9F3;
+	}
+}

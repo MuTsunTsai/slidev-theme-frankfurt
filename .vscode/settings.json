@@ -1,0 +1,23 @@
+{
+    "cSpell.words": [
+        "Shiki",
+        "slidev"
+    ],
+    "css.customData": [
+        ".vscode/apply.json"
+    ],
+    "explorerExclude.backup": {},
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true,
+        "node_modules": true
+    }
+}
