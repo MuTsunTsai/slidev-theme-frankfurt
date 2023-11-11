@@ -51,6 +51,10 @@ html {
 	border-radius: .5rem;
 	overflow: hidden;
 
+	html.dark & {
+		--un-shadow-color: #111;
+	}
+
 	header {
 		padding: 0.5rem;
 		color: white;
@@ -60,5 +64,9 @@ html {
 	main {
 		padding: 0.5rem;
 		background: #E9E9F3;
+
+		html.dark & {
+			background: #444;
+		}
 	}
 }
