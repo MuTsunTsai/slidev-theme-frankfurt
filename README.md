@@ -13,7 +13,7 @@ A theme for [Slidev](https://github.com/slidevjs/slidev), inspired by the Frankf
   run `npm run dev` to check out the slides for more details of how to start writing a theme
 -->
 
-![](screenshots/001.png)
+![](screenshots/01.png)
 
 ## Install
 
@@ -51,7 +51,7 @@ This theme provides the following component:
 </Item>
 ```
 
-![](screenshots/006.png)
+![](screenshots/06.png)
 
 ## Contributing
 
