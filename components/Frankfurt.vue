@@ -15,13 +15,15 @@
 <script setup lang="ts">
 	import { computed } from "vue";
 
+	import type { SlideInfoBase } from "@slidev/types";
+
 	const sections = computed(() => {
 		const result: [string, number[]][] = [];
 		let pages: number[] = [];
 		let title = "";
-		for(let i = 1; i < $slidev.nav.rawRoutes.length; i++) {
-			const route = $slidev.nav.rawRoutes[i];
-			const section = route.meta?.slide?.frontmatter?.section;
+		for(let i = 1; i < $slidev.nav.slides.length; i++) {
+			const slide = $slidev.nav.slides[i];
+			const section = (slide.meta?.slide as SlideInfoBase)?.frontmatter?.section;
 			if(section) {
 				if(pages.length > 0) result.push([title, pages]);
 				pages = [];

@@ -24,14 +24,14 @@
 		"screenshot": "slidev export example.md --per-slide --format png --output screenshots"
 	},
 	"dependencies": {
-		"@slidev/types": "^0.43.14",
+		"@slidev/types": "^0.48.3",
 		"codemirror-theme-vars": "^0.1.2",
 		"prism-theme-vars": "^0.2.4",
-		"theme-vitesse": "^0.7.3"
+		"theme-vitesse": "^0.7.7"
 	},
 	"devDependencies": {
-		"@slidev/cli": "^0.43.14",
-		"playwright-chromium": "^1.39.0"
+		"@slidev/cli": "^0.48.3",
+		"playwright-chromium": "^1.42.1"
 	},
 	"//": "Learn more: https://sli.dev/themes/write-a-theme.html",
 	"slidev": {

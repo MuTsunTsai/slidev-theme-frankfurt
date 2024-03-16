@@ -9,6 +9,15 @@ declare global {
 
 declare module 'vue' {
 	interface ComponentCustomProperties {
+		$slidev: UnwrapNestedRefs<SlidevContext>;
 		$renderContext: string;
+	}
+}
+
+declare module '@slidev/types' {
+	interface SlidevConfig {
+		infoLine?: boolean;
+		date?: string;
+		author?: string;
 	}
 }

@@ -1,4 +1,4 @@
-import { defineShikiSetup } from '@slidev/types/dist/index.mjs'
+import { ShikiSetupReturn, defineShikiSetup } from '@slidev/types/dist/index.mjs'
 
 export default defineShikiSetup(async () => {
 	return {
@@ -6,5 +6,5 @@ export default defineShikiSetup(async () => {
 			dark: 'dark-plus',
 			light: 'light-plus',
 		},
-	}
-})
+	} as ShikiSetupReturn;
+});
