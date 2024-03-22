@@ -1,7 +1,6 @@
 {
-  "recommendations": [
-	"antfu.slidev",
-	"vue.vscode-typescript-vue-plugin",
-	"vue.volar"
-]
+	"recommendations": [
+		"antfu.slidev",
+		"vue.volar"
+	]
 }
