@@ -8,7 +8,7 @@
 		</div>
 		<div class="flex-1 p-1" style="background:#3333B3">
 			<div class="float-right">
-				<SlideCurrentNo /> /
+				{{ $slidev.nav.currentPage }} /
 				<SlidesTotal />
 			</div>
 			{{ $slidev.configs.date || new Date().toLocaleDateString() }}
