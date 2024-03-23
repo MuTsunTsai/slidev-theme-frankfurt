@@ -24,7 +24,7 @@
 		for(let i = 1; i < $slidev.nav.slides.length; i++) {
 			const slide = $slidev.nav.slides[i];
 			const section = (slide.meta?.slide as SlideInfoBase)?.frontmatter?.section;
-			if(section) {
+			if(section && section != title) {
 				if(pages.length > 0) result.push([title, pages]);
 				pages = [];
 				title = section;
