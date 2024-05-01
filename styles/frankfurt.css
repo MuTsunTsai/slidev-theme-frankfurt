@@ -2,7 +2,8 @@ html {
 	font-size: 10pt;
 }
 
-.slidev-page {
+.slidev-page,
+.slidev-layout {
 
 	overflow: hidden;
 
@@ -27,7 +28,7 @@ html {
 	&.cover,
 	&.intro {
 		h1 {
-			@apply shadow-md  shadow-gray;
+			@apply shadow-md shadow-gray;
 
 			display: inline-block;
 			padding: 1rem 5rem;
