@@ -14,6 +14,7 @@
 
 <script setup lang="ts">
 	import { computed } from "vue";
+	import Link from "@slidev/client/builtin/Link.vue";
 
 	import type { SlideInfoBase } from "@slidev/types";
 

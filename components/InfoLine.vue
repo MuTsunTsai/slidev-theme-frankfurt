@@ -15,3 +15,7 @@
 		</div>
 	</footer>
 </template>
+
+<script setup lang="ts">
+import SlidesTotal from "@slidev/client/builtin/SlidesTotal.vue";
+</script>
