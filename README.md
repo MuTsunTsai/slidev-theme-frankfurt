@@ -23,7 +23,7 @@ date: '2023/01/01' # shows in infoLine, defaults to the current date
 ---
 ```
 
-Learn more about [how to use a theme](https://sli.dev/themes/use).
+Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
 ## Using sections
 
