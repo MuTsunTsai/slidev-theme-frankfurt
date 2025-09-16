@@ -1,6 +1,6 @@
 {
 	"name": "slidev-theme-frankfurt",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"type": "module",
 	"description": "A theme for Slidev, inspired by the Frankfurt theme in Beamer.",
 	"repository": {
