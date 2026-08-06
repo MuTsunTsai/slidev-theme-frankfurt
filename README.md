@@ -17,6 +17,7 @@ Start Slidev and then it will prompt you to install the theme automatically.
 ---
 theme: frankfurt
 infoLine: true # on by default, can be turned off
+topNavigation: true # on by default, can be turned off
 author: 'Your name here' # shows in infoLine
 title: 'Title' # shows in infoLine
 date: '2023/01/01' # shows in infoLine, defaults to the current date
@@ -36,6 +37,9 @@ add the following frontmatter to the first page of each section:
 section: 'Section title'
 ---
 ```
+
+If your presentation doesn't use sections,
+you can set `topNavigation: false` to hide the top bar entirely.
 
 ## Components
 

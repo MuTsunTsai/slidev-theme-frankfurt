@@ -17,6 +17,7 @@ declare module 'vue' {
 declare module '@slidev/types' {
 	interface SlidevConfig {
 		infoLine?: boolean;
+		topNavigation?: boolean;
 		date?: string;
 		author?: string;
 	}

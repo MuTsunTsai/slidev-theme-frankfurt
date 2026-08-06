@@ -22,6 +22,10 @@ html {
 		width: 1000%;
 		--un-shadow-opacity: 1;
 		--un-shadow-color: #3333B3;
+
+		html.frankfurt-no-top-nav & {
+			padding-top: 2.5rem;
+		}
 	}
 
 	&.center,
